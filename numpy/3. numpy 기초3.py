@@ -34,6 +34,7 @@ print(a11)
 #  [2 3 6 7]]
 
 # 배열 나누기
+# 가로로 나누기
 a12 = np.arange(8).reshape(2, 4)
 left, right = np.split(a12, [2], axis = 1)  # 가로축 인덱스2를 기준으로 왼쪽과 오른쪽으로 나눈다.
 print(left)
@@ -43,6 +44,7 @@ print(right)
 # [[0 1 4 5]
 #  [2 3 6 7]]
 
+#세로로 나누기
 up, down = np.split(a12, [1], axis = 0)  # 세로축 인덱스1을 기준으로 위와 아래로 나눈다.
 print(up)  # [[0 1 2 3]]
 print(down)  # [[4 5 6 7]]

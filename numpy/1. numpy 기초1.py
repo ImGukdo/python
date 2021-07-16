@@ -30,6 +30,10 @@ print(a6)
 #  [ 4  5  6  7]
 #  [ 8  9 10 11]]
 
+# 시작과 끝을 지정하고 데이터의 개수를 지정해 배열생성
+a7 = np.linspace(0, 10, 7)  # linspace([start, stop [, num]) num default값은 50
+print(a7)  # [ 0.          1.66666667  3.33333333  5.          6.66666667  8.33333333  10.        ]
+
 # 배열 객체의 타입을 확인
 print(a1.dtype)  # int32
 print(a2.dtype)  # float64

@@ -43,3 +43,9 @@ print(a6.shape)  # (3, 4)
 print(a4.size)  # 9
 print(a5.size)  # 12
 print(a6.size)  # 12
+
+# 배열의 데이터 타입 변환
+a8 = np.array(["1.567", "0.123", "5.123", "9", "8"]) 
+print(a8.dtype)  # <U5
+a9 = a8.astype(float)
+print(a9.dtype)  # float64

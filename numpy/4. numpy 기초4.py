@@ -107,7 +107,12 @@ print("최대값 :", np.max(a14))  # 최대값 : 15
 print("최소값 :", np.min(a14))  # 최소값 : 0
 print("합계 :", np.sum(a14))  # 합계 : 120
 print("평균 :", np.mean(a14))  # 평균 : 7.5
+print("최대값 위치 :, np.argmax(a14))  # 최대값 위치 : 15
+print("최소값 위치 :, np.argmin(a14))  # 최대값 위치 : 0
 
 # 가로나 세로로 집계 합수 사용하기
 print(np.sum(a14, axis = 0))  # 세로방향으로 합 구하기, [24 28 32 36]
 print(np.sum(a14, axis = 1))  # 가로방향으로 합 구하기, [ 6 22 38 54]
+print(np.argmax(a14, axis = 0))  # [3 3 3 3]
+print(np.argmin(a14, axis = 1))  # [0 0 0 0]
+      
